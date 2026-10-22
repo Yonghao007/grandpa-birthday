@@ -1,0 +1,111 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>外公生日快乐 ❤️</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- 烟花画布 -->
+    <canvas id="fireworks"></canvas>
+
+    <!-- 背景气球 -->
+    <div class="balloons">
+        <span>🎈</span>
+        <span>🎈</span>
+        <span>🎈</span>
+        <span>🎈</span>
+        <span>🎈</span>
+    </div>
+
+    <!-- 主页面 -->
+    <main class="container">
+
+        <div class="birthday-card">
+
+            <div class="subtitle">
+                A Special Day For You
+            </div>
+
+            <h1>🎉 外公生日快乐 🎉</h1>
+
+            <p class="description">
+                愿岁月温柔，幸福常伴
+            </p>
+
+            <!-- 蛋糕 -->
+            <div class="cake-container">
+
+                <div class="cake">
+
+                    <!-- 蜡烛 -->
+                    <div class="candles">
+
+                        <div class="candle">
+                            <div class="flame"></div>
+                        </div>
+
+                        <div class="candle">
+                            <div class="flame"></div>
+                        </div>
+
+                        <div class="candle">
+                            <div class="flame"></div>
+                        </div>
+
+                    </div>
+
+                    <!-- 蛋糕层 -->
+                    <div class="cake-top"></div>
+                    <div class="cake-middle"></div>
+                    <div class="cake-bottom"></div>
+
+                </div>
+
+            </div>
+
+            <p class="cake-tip">
+                🕯️ 点击蜡烛，许下美好的生日愿望
+            </p>
+
+            <!-- 祝福文字 -->
+            <div class="message-box">
+                <p id="birthday-message"></p>
+            </div>
+
+            <!-- 按钮 -->
+            <div class="buttons">
+
+                <button id="fireworks-btn">
+                    🎆 送上生日烟花
+                </button>
+
+                <button id="music-btn">
+                    🎵 播放生日歌
+                </button>
+
+            </div>
+
+            <div class="footer">
+                ❤️ 愿外公健康长寿，幸福安康 ❤️
+            </div>
+
+        </div>
+
+    </main>
+
+    <!-- 背景音乐 -->
+    <audio id="birthday-music" loop>
+        <source src="assets/birthday.mp3" type="audio/mpeg">
+    </audio>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
