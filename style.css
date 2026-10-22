@@ -413,3 +413,14 @@ button:hover {
     }
 
 }
+
+/* 生日祝福署名 */
+
+.signature {
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #d4a373;
+    letter-spacing: 2px;
+    font-family: "STKaiti", "KaiTi", serif;
+}
